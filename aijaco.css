@@ -1,0 +1,171 @@
+.body {
+    background-color: var(--bs-body-bg);
+    width: 100%;
+    height: 100%;
+  }
+  /* Estilos generales */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li {
+    text-align: left;
+  }
+ 
+  .img-fluid {
+    width: 30%;
+    height: 690px;
+    border-radius: 50%;
+  }
+
+  .text-body-emphasis2 {
+    text-align: left;
+  }
+  .columbia {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    float: right;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    
+  }
+  nav li {
+    margin-left: 10px;
+    padding: -20%;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+    padding: 37%;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    margin-left: 10%;
+  }
+  
+  .menu-toggle {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #333;
+  }
+  
+  /* Estilos para vista móvil */
+  @media (max-width: 768px) {
+    header {
+      flex-wrap: wrap;
+    }
+  
+
+    .logo {
+      order: 1;
+      margin-bottom: 20px;
+    }
+  
+    .colombia-pais {
+      width: 100%;
+      height: 420px;
+      filter: brightness(50%);
+    }
+  
+    
+    
+    .colombia-paisa {
+      width: 35%;
+      height: 120px;
+      filter: brightness(50%);
+    }
+    h5, p {
+      font-size: 20px;
+    }
+   }
+  
+  /* Estilos para vista de escritorio */
+  @media (min-width: 769px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  
+  /*Imagen de abajo */
+  .colombia-pais {
+    width: 100%;
+    height: 720px;
+    filter: brightness(50%);
+  }
+  
+  .colombia-paisa {
+    width: 100%;
+    height: 720px;
+    filter: brightness(50%);
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .texto2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .food-land {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .food-land img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .food-land p {
+    margin: 0;
+  } 
+  
+  .colombia-img {
+    width: 10%;
+    height: 80px;
+  }
+  
+  .text-up {
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+  }
