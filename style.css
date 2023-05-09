@@ -11,6 +11,7 @@
   
 }
 
+
 .columbia {
   width: 80px;
   height: 70px;
@@ -27,7 +28,7 @@ header {
 }
 nav li {
   margin-left: 1px;
-  padding: -20%;
+  padding: -15%;
 }
 
 nav a {
@@ -172,10 +173,21 @@ nav a {
 
 .imagencita {
   float: left;
-  margin-left: -30%;
+  margin-left: -29%;
   margin-top: 1%;
   border-radius: 50%;
 
+}
+
+.imagencita2 {
+  border-radius: 35%;
+}
+
+.imagencita3 {
+  float: left;
+  margin-left: -18%;
+  margin-top: 1%;
+  border-radius: 50%;
 }
 
 .ig-icon {
@@ -207,7 +219,6 @@ h4 {
   text-align: center;
 }
 
-.drinkings {
-  text-align: center;
-  font-size: 155%;
+.columbia {
+  margin-bottom: -25%;
 }
